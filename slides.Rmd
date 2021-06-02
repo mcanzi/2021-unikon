@@ -1,0 +1,138 @@
+---
+title: "Looking for the Phonological Mapping Negativity (in all the wrong places)"
+author: "__Massimiliano Canzi__ `massimiliano.canzi@uni-konstanz.de`"
+date: "June 24 2021"
+output: 
+  beamer_presentation:
+    theme: "Frankfurt"
+    colortheme: "dove"
+    font: "serif"
+---
+
+# Introduction
+
+## Event-related potentials
+
+Event-related potentials (__ERP__) are measured brain responses that are direct result of a __sensory__, __cognitive__ or motor event (__Luck 2005__)
+
+Event-related potential components are measured with electro-encephalography (__EEG__) equipment.
+
+## Event-related potentials
+
+Event-related potentials __can inform us about cognitive time-lines during processes such as__ online language processing and __speech perception__. ERP can be exploited to investigate architectures of grammar e.g. 
+
+\small
+
+* Information flow order during speech perception
+* Mental representations
+
+\normalsize
+
+## Phonological Mapping Negativity
+
+The Phonological Mapping (or Mismatch) Negativity, __PMN__ is an event-related potential component hypothesized to index pre-lexical phonological processing (__Connolly and Phillips 1994__; __Connolly et al. 2001__; ...) 
+
+## Phonological Mapping Negativity
+
+However, while some studies (e.g. __Connolly and Phillips 1994__) have linked the PMN to phonological mapping during the lexical selection stage of speech perception, others (e.g. __Newman \& Connolly__) report the ERP response is a marker of __acoustic and prelexical information__. 
+
+## Phonological Mapping Negativity
+
+__Lewendon et. al (2020)__ suggest that the possibility exists that the PMN is an extension of either the Mismatch Negativity (__MMN__) or N400 components (__Kutas and Hillyard 1980; Naatanen 1991__)
+
+## Research question
+
+* __Is the PMN in response to acoustic, phonetic, phonological, lexical mapping and mismatch, none or a combination of all?__
+
+Why the PMN.. and why now? 
+
+\small
+
+* The PMN might play an important role in future investigations of architectures of grammar (placed in between acoustic and lexical processing)
++ Clinical studies have used the PMN as a __marker of phonological processing abilities__. However, it is not clear what exactly the PMN stands for. 
+
+\normalsize
+
+# Methods
+
+## Experimental design
+
+__Three neuroimaging experiments__ designed to introduce new contexts in which to probe the elicitation of the PMN ERP component. Experiments 1, 2, and 3 were designed to work independently while being fully comparable.
+
+## Equipment
+
+Data collection
+
+\small
+
+* 64 BioSemi electrodes_ / _ActiView_
+* Neurobehavioral Systems' __Presentation__
+
+\normalsize
+
+Data processing
+
+\small
+
+* __MATLAB__ (EEGLAB, ERPLAB)
+* R
+
+\normalsize
+
+## Software
+
+\small
+
+* Exploratory channel-level multivariate testing with package `erp` and the AFA procedure (__Sheu et al. 2016__)
+* Mean amplitude modelling with package `lme4` (__Bates et al. 2018__)
+* Cubic spline interpolation scalp maps with package `akima`
+
+## Reproducibility
+
+Averaged ERP data, statistical analysis code and model outputs / summaries, as well as visual exploration for all experiments, are freely available on GitHub at the repository `mcanzi/phd_codedata`
+
+Thesis has been submitted and __will be available through open access__ following thesis defense.
+
+\normalsize
+
+## Experiment one
+
+## Experiment two
+
+## Experiment three
+
+# Results
+
+##
+
+##
+
+##
+
+##
+
+# Discussion
+
+##
+
+##
+
+##
+
+##
+
+## __Thank you!__
+
+## References
+
+\tiny
+
+*
+
+*
+
+*
+
+\normalsize
+
+## Questions?
