@@ -9,6 +9,16 @@ output:
     font: "serif"
 ---
 
+```{r packages, include = F}
+library(akima)
+library(dplyr)
+library(ERP)
+library(ggplot2)
+library(lme4)
+library(lmerTest)
+library(report)
+```
+
 # Introduction
 
 ## Event-related potentials
@@ -65,53 +75,104 @@ Data collection
 
 \small
 
-* 64 BioSemi electrodes_ / _ActiView_
+* 64 active pin-type __BioSemi__ electrodes / _ActiView_
 * Neurobehavioral Systems' __Presentation__
 
 \normalsize
 
-Data processing
+Software
 
 \small
 
-* __MATLAB__ (EEGLAB, ERPLAB)
-* R
+* MATLAB (2018b; 2019a; 2019b)
+* EEGLAB (__Delorme & Makeig 2004__) 
+* ERPLAB (__Lopez-Calderon & Luck, 2014__)
+* R (4.1) (__R Core Team 2021__)
 
 \normalsize
 
 ## Software
 
+Data analysis
+
 \small
 
-* Exploratory channel-level multivariate testing with package `erp` and the AFA procedure (__Sheu et al. 2016__)
-* Mean amplitude modelling with package `lme4` (__Bates et al. 2018__)
-* Cubic spline interpolation scalp maps with package `akima`
+* Exploratory channel-level multivariate testing with package `ERP` (__Causeur et al. 2020__) and the Adaptive Factor Adjustment (AFA) procedure (__Sheu et al. 2016__)
+* Mean amplitude modelling with package `lme4` (__Bates et al. 2015__)
 
-## Reproducibility
+Data visualisation
 
-Averaged ERP data, statistical analysis code and model outputs / summaries, as well as visual exploration for all experiments, are freely available on GitHub at the repository `mcanzi/phd_codedata`
-
-Thesis has been submitted and __will be available through open access__ following thesis defense.
+* Grand-Average / difference ERP plots with `ggplot2` (__Wickham 2016__)
+* Cubic spline interpolation scalp maps with package `akima` (__Akima and Gebhardt 2020__)
 
 \normalsize
 
-## Experiment one
+## Reproducibility
 
-## Experiment two
+![](img/github.png){width="10%"}
 
-## Experiment three
+Averaged ERP data, statistical analysis code and model outputs / summaries, as well as visual exploration for all experiments, are freely available on GitHub at the repository `mcanzi/phd_codedata`
 
-# Results
+Thesis has been submitted and __will be available through open access__ following thesis defense (in August) and corrections.
 
-##
+# Experiment 1
 
-##
+## Methods
 
-##
+*
+*
+*
+*
 
-##
+## Methods
 
-# Discussion
+## Results
+
+## Results 
+
+## Discussion 
+
+## Discussion
+
+# Experiment 2
+
+## Methods
+
+*
+*
+*
+*
+
+## Methods
+
+## Results
+
+## Results 
+
+## Discussion 
+
+## Discussion
+
+# Experiment 3
+
+## Methods
+
+*
+*
+*
+*
+
+## Methods
+
+## Results
+
+## Results 
+
+## Discussion 
+
+## Discussion
+
+# General Discussion
 
 ##
 
