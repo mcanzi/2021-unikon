@@ -76,6 +76,7 @@ The original goal of my thesis was that to __design__ a handful of __ERP experim
 
 ## MMN
 
+\small
 
 The mismatch negativity (MMN) is a cross-sensorial ERP component often observed in frontocentral regions of the scalp between 150 and 250 ms post stimulus onset \pause
 
