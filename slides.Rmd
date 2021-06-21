@@ -74,6 +74,30 @@ The original goal of my thesis was that to __design__ a handful of __ERP experim
 
 \normalsize
 
+## MMN
+
+
+The mismatch negativity (MMN) is a cross-sensorial ERP component often observed in frontocentral regions of the scalp between 150 and 250 ms post stimulus onset \pause
+
+The mismatch negativity reflects the perception of a deviant stimulus in a sequence of standard stimuli (e.g. Garrido et al., 2009) \pause
+
+In the aud- itory domain, a deviant stimulus can be identified by differences in pitch, duration, stress and frequency range (Erlbeck et al., 2014)
+
+\normalsize
+
+## N400
+
+The N400 (Kutas \& Hillyard 1980) is part of the normal brain response to words and other meaningful stimuli.
+\pause
+\begin{center}
+nurse \pause doctor \pause | \pause  
+pizza \pause pineapple \pause  
+\end{center}
+
+* Other paradigms include cloze-probability mismatch (e.g. Connolly and Phillips 1994)
+
+## P600
+
 ## Phonological Mapping Negativity
 
 The Phonological Mapping (or Mismatch) Negativity, __PMN__ is an event-related potential component hypothesized to index phonological mismatch and mapping \pause (e.g. Connolly and Phillips 1994; Connolly et al. 2001) 
@@ -85,6 +109,29 @@ However, while some studies (e.g. Connolly and Phillips 1994) have linked the PM
 \pause 
 
 others (e.g. Newman & Connolly) report that the PMN is a __marker of acoustic and pre-lexical information__. 
+
+## Connolly and Phillips (1994)
+
+Event-Related Potential Components Reflect Phonological and Semantic Processing of the Terminal Word of Spoken Sentences: 
+
+\pause
+
+* The piano is out of \pause tune \pause (no mismatch) \pause
+* The piano is out of \pause tuna \pause (N400) \pause
+* The piano is out of \pause pizza \pause (N400 and PMN) \pause
+* ...
+
+## Newman et al. (2003)
+
+Phoneme deletion task to study the PMN:
+
+\pause
+
+Delete /k/ from the word "clap" \pause
+
+* lap \pause
+* aap \pause
+* dog 
 
 ## Phonological Mapping Negativity
 
@@ -208,14 +255,54 @@ Data visualisation:
 
 # Experiment 1
 
-## Methods
+## Procedure
 
-*
-*
-*
-*
+\small
 
-## Methods
+\begin{itemize}[<+->]
+\item Participants were trained to learn three pairs of tri-syllabic nonce words in a computerized training phase (e.g. \emph{pitabu dipida})
+  \begin{itemize}[<+->]
+  \item \footnotesize Transitional probabilities within the two items of each nonce-word pair was 1.0 
+  \end{itemize}
+\item \small Participants were tested on their knowledge of the experimental stimuli in a computerized task
+\item During EEG data collection, stimuli were played back to participants during a passive listening task, however..
+  \begin{itemize}[<+->]
+  \item \footnotesize In 33\% of total trials, the first syllable of the second nonce-word of each pair would be manipulated to break expectations
+  \end{itemize}
+\end{itemize}
+
+\normalsize
+
+## Stimuli 
+
+\begin{center}
+
+pitabu \pause dipida \pause
+
+pitabu \pause \textbf{ba}pida \pause
+
+pitabu \pause \textbf{bu}pida \pause
+
+\end{center}
+\small
+
+\begin{itemize}[<+->]
+\item Stimuli were synthesized using Mac OS Text-to-Speech
+\item Vowel, syllable and word length were controlled for (each syllable was 200 ms long)
+\item Speaker and pitch contours were the same for all stimuli.
+\end{itemize}
+
+## Participants
+
+22 Participants (F = 13) took part to the experiment. 
+
+\begin{itemize}[<+->]
+\item 22 right-handed adults
+\item 22 BrE speakers
+\item Age (M = 22, 18-25)
+\item Normal or corrected to normal vision and hearing
+\item No reported use of psychoactive medications
+\end{itemize}
 
 ## Results
 
