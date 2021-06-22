@@ -4,6 +4,7 @@ author: "__Massimiliano Canzi__ `massimiliano.canzi@uni-konstanz.de`"
 date: "June 24 2021"
 header-includes:
   - \usepackage{tipa}
+  - \usepackage{ulem}
 output: 
   beamer_presentation:
     latex_engine: xelatex
@@ -12,14 +13,8 @@ output:
     font: "serif"
 ---
 
-```{r packages, include = F}
-library(akima)
-library(dplyr)
-library(ERP)
-library(ggplot2)
-library(lme4)
-library(lmerTest)
-library(report)
+```{r setup, include = F}
+knitr::opts_chunk$set(fig.align="center")
 ```
 
 # Introduction
@@ -27,7 +22,7 @@ library(report)
 ## Introduction
 
 \begin{center}
-\emph{Four years ago...}
+Four years ago...
 \end{center}
 
 ## Introduction
@@ -44,6 +39,7 @@ Can event-related potential data inform information flow order in speech percept
 \small \pause
 \begin{itemize}[<+->]
 \item Elman, J. L., \& McClelland, J. L. (1988). Cognitive penetration of the mechanisms of perception: Compensation for coarticulation of lexically restored phonemes. Journal of Memory and Language, 27(2), 143-165.
+\item Pitt, M. A., \& McQueen, J. M. (1998). Is compensation for coarticulation mediated by the lexicon? Journal of Memory and Language, 39, 347–370.
 \item Magnuson et al. (2003). Lexical effects on compensation for coarticulation: \textbf{The ghost of Christmash past}. Cognitive Science, 27(2), 285-298.
 \item McQueen, J. M. (2003). \textbf{The ghost of Christmas future: didn’t scrooge learn to be good?}: Commentary on Magnuson et al. (2003). Cognitive Science, 27(5), 795-799.
 \item McQueen, et al. (2009). No lexical–prelexical feedback during speech perception or: \textbf{Is it time to stop playing those Christmas tapes?}. Journal of Memory and Language, 61(1), 1-18.
@@ -119,7 +115,7 @@ The mismatch negativity (MMN) is a cross-sensorial ERP component often observed 
 
 The mismatch negativity reflects the perception of a deviant stimulus in a sequence of standard stimuli (e.g. Garrido et al., 2009) \pause
 
-In the aud- itory domain, a deviant stimulus can be identified by differences in pitch, duration, stress and frequency range (Erlbeck et al., 2014)
+In the auditory domain, a deviant stimulus can be identified by differences in pitch, duration, stress and frequency range (Erlbeck et al., 2014)
 
 \normalsize
 
@@ -144,7 +140,7 @@ However, while some studies (e.g. Connolly and Phillips 1994) have linked the PM
 
 \pause 
 
-others (e.g. Newman & Connolly) report that the PMN is a __marker of acoustic and pre-lexical information__. 
+Others (e.g. Newman & Connolly) report that the PMN is a __marker of acoustic and pre-lexical information__. 
 
 ## Connolly and Phillips (1994)
 
@@ -227,26 +223,29 @@ Why the PMN.. \pause _and why now? _
 
 \pause Experiments __1__, __2__ (and __3__) were designed to simultaneously work independently while also being fully comparable.
 
-## Equipment
+## Equipment & Processing
 
 Hardware:
 
 \small \pause
 
 \begin{itemize}[<+->]
-\item 64 active pin-type \textbf{BioSemi} electrodes / \textbf{ActiView}
-\item Neurobehavioral Systems' \textbf{Presentation}
+\item 64 active pin-type \textbf{BioSemi} electrodes
+\item 6 (EX1 to EX6) face electrodes
+\item BiooSemi hardware (e.g. receiver)
 \end{itemize}
 
 \normalsize
 
-## Equipment
+## Equipment & Processing
 
 Software:
 
 \small \pause
 
 \begin{itemize}[<+->]
+\item BioSemi Actiview
+\item Neurobehavioral Systems' \textbf{Presentation}
 \item MATLAB (2018b; 2019a; 2019b)
 \item EEGLAB (Delorme \& Makeig 2004) 
 \item ERPLAB (Lopez-Calderon \& Luck, 2014)
@@ -255,7 +254,26 @@ Software:
 
 \normalsize
 
-## Equipment
+## Equipment & Processing
+
+EEG pre-processing: \pause
+  
+    
+  
+```{r, out.width = "80%", echo = F}
+knitr::include_graphics("img/processing.png")
+```
+
+## Equipment & Processing
+
+EEG pre-processing: \pause
+
+\begin{itemize}[<+->]
+\item Offline average reference
+\item 512 Hz sampling frequency
+\end{itemize}
+
+## Equipment & Processing
 
 Statistical analyses:
 
@@ -340,9 +358,19 @@ pitabu \pause \textbf{bu}pida \pause
 \item No reported use of psychoactive medications
 \end{itemize}
 
-## Results
-
 ## Results 
+
+\footnotesize 
+\begin{center}
+
+Cubic-spline interpolation scalp maps. Mean amplitude betweeen 280 and 320 ms post-stimulus onset.
+
+\end{center} 
+\pause \normalsize
+
+```{r, out.width = "80%", echo = F}
+knitr::include_graphics("img/pmn.png")
+```
 
 ## Other effects
 
@@ -353,7 +381,7 @@ pitabu \pause \textbf{bu}pida \pause
 
 \begin{center}
 
-No instance of \textbf{PMN} (in any of its forms) was found)
+No instance of \textbf{PMN} (in any of its expected forms) was found)
 
 \end{center}
 
@@ -368,14 +396,35 @@ Possible explanations: \pause
 
 # Experiment 2
 
-## Methods
+## Stimuli
 
-*
-*
-*
-*
+\begin{center}
 
-## Methods
+Same nonce words as \textbf{Experiment 1}
+
+\end{center}
+
+## Procedure
+
+\begin{center}
+
+di + \pause (500 ms pause) + \pause pi + \pause (500 ms pause) + \pause da \pause  
+
+(4 s pause) \pause  
+  
+dipida  
+\end{center}
+
+## Procedure
+
+However, in 33% of total trials
+
+\begin{center}
+
+di \pause pi \pause da \pause  
+  
+\textbf{ba}pida
+\end{center}
 
 ## Results
 
@@ -383,7 +432,16 @@ Possible explanations: \pause
 
 ## Discussion 
 
+No instance of \textbf{PMN} (in any of its expected forms) was found)
+
 ## Discussion
+
+Possible explanations: \pause
+
+\begin{itemize}[<+->]
+\item PMN is more "higher-level" than previously theorized
+\item \sout{Methodological limitations of Exp. 1}
+\end{itemize} 
 
 # General Discussion
 
