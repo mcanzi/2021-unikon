@@ -2,6 +2,8 @@
 title: "Looking for the Phonological Mapping Negativity (in all the wrong places)"
 author: "__Massimiliano Canzi__ `massimiliano.canzi@uni-konstanz.de`"
 date: "June 24 2021"
+header-includes:
+  - \usepackage{tipa}
 output: 
   beamer_presentation:
     latex_engine: xelatex
@@ -24,26 +26,61 @@ library(report)
 
 ## Introduction
 
-\small
-
-_Four years ago_
-
-\pause
-
-_It was a dark and stormy night in Manchester, England_
-
-\pause
-
-__Me:__ \pause "What if we used ERP to help settle the decade-long debate of feed-forward vs interactive speech perception? \pause It sounds fairly straightforward!" 
-
-\pause 
-\footnotesize
-
-[__It obviously really wasn't__]
-
-\normalsize
+\begin{center}
+\emph{Four years ago...}
+\end{center}
 
 ## Introduction
+
+Can event-related potential data inform information flow order in speech perception? \pause i.e. what the extent of top-down mediation is during speech perception. 
+
+## Introductin 
+
+* Interactive models of speech perception (e.g. TRACE)
+* Feed-forward / modular models of speech perception (e.g. Cohort model)
+
+## Introduction
+
+\small \pause
+\begin{itemize}[<+->]
+\item Elman, J. L., \& McClelland, J. L. (1988). Cognitive penetration of the mechanisms of perception: Compensation for coarticulation of lexically restored phonemes. Journal of Memory and Language, 27(2), 143-165.
+\item Magnuson et al. (2003). Lexical effects on compensation for coarticulation: \textbf{The ghost of Christmash past}. Cognitive Science, 27(2), 285-298.
+\item McQueen, J. M. (2003). \textbf{The ghost of Christmas future: didn’t scrooge learn to be good?}: Commentary on Magnuson et al. (2003). Cognitive Science, 27(5), 795-799.
+\item McQueen, et al. (2009). No lexical–prelexical feedback during speech perception or: \textbf{Is it time to stop playing those Christmas tapes?}. Journal of Memory and Language, 61(1), 1-18.
+\end{itemize} \normalsize
+
+## Elman & McClelland (1988)
+
+Compensation for coarticulation: (Mann \& Repp 1981) \pause
+
+\begin{itemize}[<+->]
+\item /t-k/ perceived more often as /k/ following /s/
+\item /t-k/ perceived more often as /t/ following /\textesh/
+\end{itemize}
+
+Ganong effect (Ganong 1980)
+
+\begin{itemize}[<+->]
+\item Ambiguous phonemes are solved more often with the choice that makes a word vs. a non-word 
+\item e.g. Christma/s-\textesh/ more often solved as Christma/s/. 
+\item Effect stronger at phoneme boundary.
+\end{itemize}
+
+## Elman & McClelland (1988)
+
+\begin{center}
+\normalsize
+Christma\textbf{/s-\textesh/} \textbf{/t-k/}capes  
+  
+    
+\pause Cool, huh?
+\end{center}
+
+## Introduction
+
+Can event-related potential data inform information flow order in speech perception? \pause i.e. what the extent of top-down mediation is during speech perception. 
+
+## Event-related potentials
 
 Event-related potentials (__ERP__) are measured brain responses that are direct result of a __sensory__, __cognitive__ or motor event (__Luck 2005__)
 
@@ -51,7 +88,7 @@ Event-related potentials (__ERP__) are measured brain responses that are direct 
 
 Event-related potential components are measured with electro-encephalography (__EEG__) equipment.
 
-## Introduction
+## Event-related potentials
 
 __ERP__ (and EEG) offer unparalleled temporal resolution, \pause opening a direct window into cognitive processes of online language processing and __speech perception__. 
 
@@ -59,7 +96,7 @@ __ERP__ (and EEG) offer unparalleled temporal resolution, \pause opening a direc
 
 The original goal of my thesis was that to __design__ a handful of __ERP experiments to investigate lexical feedback__ and top-down processes of speech perception. \pause But how?
 
-## Introduction
+## Event-related potentials
 
 \begin{itemize}[<+->]
 \item Mismatch Negativity (\textbf{MMN})
@@ -96,8 +133,6 @@ pizza \pause pineapple \pause
 \end{center}
 
 * Other paradigms include cloze-probability mismatch (e.g. Connolly and Phillips 1994)
-
-## P600
 
 ## Phonological Mapping Negativity
 
@@ -190,7 +225,7 @@ Why the PMN.. \pause _and why now? _
 
 \pause __Three neuro-imaging experiments__ designed to introduce new contexts in which to probe the elicitation of the PMN ERP component.
 
-\pause Experiments __1__, __2__, and __3__ were designed to simultaneously work independently while also being fully comparable.
+\pause Experiments __1__, __2__ (and __3__) were designed to simultaneously work independently while also being fully comparable.
 
 ## Equipment
 
@@ -252,7 +287,7 @@ Data visualisation:
 
 \pause Data, code and model summaries are freely available on GitHub at the repository `mcanzi/phd_codedata`
 
-\pause PhD thesis has been submitted and _will available through open access_ following thesis defense (in August) and corrections.
+\pause PhD thesis has been submitted and _will be available through open access_ following thesis defense (in August) and corrections.
 
 # Experiment 1
 
@@ -314,25 +349,6 @@ pitabu \pause \textbf{bu}pida \pause
 ## Discussion
 
 # Experiment 2
-
-## Methods
-
-*
-*
-*
-*
-
-## Methods
-
-## Results
-
-## Results 
-
-## Discussion 
-
-## Discussion
-
-# Experiment 3
 
 ## Methods
 
