@@ -303,7 +303,7 @@ Data visualisation:
 \item \small Participants were tested on their knowledge of the experimental stimuli in a computerized task
 \item During EEG data collection, stimuli were played back to participants during a passive listening task, however..
   \begin{itemize}[<+->]
-  \item \footnotesize In 33\% of total trials, the first syllable of the second nonce-word of each pair would be manipulated to break expectations
+  \item \footnotesize In 33\% of total trials (400 total trials), the first syllable of the second nonce-word of each pair would be manipulated to break expectations
   \end{itemize}
 \end{itemize}
 
@@ -344,9 +344,27 @@ pitabu \pause \textbf{bu}pida \pause
 
 ## Results 
 
+## Other effects
+
+* Small negative effect between 150-200 ms for mismatch condition (fronto-cenral) \pause (__MMN?__)
+* Bigger positive effect between 500-700 ms for mismatch condition (centro-parietal) \pause (__P600?__)
+
 ## Discussion 
 
+\begin{center}
+
+No instance of \textbf{PMN} (in any of its forms) was found)
+
+\end{center}
+
 ## Discussion
+
+Possible explanations: \pause
+
+\begin{itemize}[<+->]
+\item PMN is more "higher-level" than previously theorized
+\item Methodological limitations of Exp. 1
+\end{itemize} 
 
 # Experiment 2
 
@@ -378,6 +396,8 @@ pitabu \pause \textbf{bu}pida \pause
 ##
 
 ## __Thank you!__
+
+\small Special thanks to my supervisors __Dr Wendell Kimper__,  __Dr Patrycja Strycharczuk__ and to all the RAs: Hui Chen, Lauren Forrest, Chloe Gornall, Tristan Hill, Yuerong Shen, Ellen Symonds, Xinrong Wang, Ziyun Zhang 
 
 ## References
 
