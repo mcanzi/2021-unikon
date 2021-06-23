@@ -406,8 +406,6 @@ No effects of interest were found \pause
 
 ## Results
 
-\pause
-
 ```{r, out.width = "60%", echo = F}
 knitr::include_graphics("img/EXP1AF.png")
 ```
@@ -430,7 +428,7 @@ Cubic-spline interpolation scalp maps. Mean amplitude betweeen 280 and 320 ms po
 \end{center} 
 \pause \normalsize
 
-```{r, out.width = "60%", echo = F}
+```{r, out.width = "45%", echo = F}
 knitr::include_graphics("img/pmn.png")
 ```
 
@@ -545,7 +543,7 @@ knitr::include_graphics("img/EXP2FC.png")
 
 Cubic-spline interpolation scalp maps. Mean amplitude between 280 and 320 ms post-stimulus onset.
 
-```{r, out.width = "60%", echo = F}
+```{r, out.width = "45%", echo = F}
 knitr::include_graphics("img/pmn2.png")
 ```
 
