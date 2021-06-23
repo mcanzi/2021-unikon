@@ -193,7 +193,7 @@ Lewendon et. al (2020) also report that the majority of the literature on the PM
 \item Contrasting theories of the PMN
 \item Mixed topographical locations: 
   \begin{itemize}[<+->]
-  \item \footnotesize Some studies report discovering the PMN in frontal and central sites, ohers in parietal / mid-line / evenly spread across the scalp.
+  \item \footnotesize Some studies report discovering the PMN in frontal and central sites, others in parietal / mid-line / evenly spread across the scalp.
   \end{itemize}
 \item \small Methodological limitations: 
   \begin{itemize}[<+->]
@@ -211,20 +211,20 @@ Lewendon et. al (2020) also report that the majority of the literature on the PM
 
 \begin{itemize}[<+->]
 \item \textbf{Is the PMN in response to acoustic, phonetic, phonological, lexical mapping and mismatch, none or a combination of all?}
-\item \textbf{Is any other ERP component found in response to acoustic, phonetic and phonological mismatch in place of / together wih the PMN?}
+\item \textbf{Is any other ERP component found in response to acoustic, phonetic and phonological mismatch in place of / together with the PMN?}
 \end{itemize}
 
 \normalsize
 
 ## Research questions
 
-Why the PMN.. \pause _and why now? _
+Why the PMN.. \pause _and why now?_
 
 \small \pause
 
 \begin{itemize}[<+->]
-\item The PMN might play an important role in future investigations of architectures of grammar (placed in between acoustic and lexical processing)
-\item Clinical studies have used the PMN as a \emph{marker of phonological processing abilities} (Robson et al. 2017). However, it is not clear what processes the PMN reallys indexes. 
+\item The PMN (placed in between phonetic and lexical processing) might play a key role in future investigations into architectures of grammar and speech perception 
+\item Clinical studies have recently used the PMN as a \emph{marker of phonological processing abilities in patient populations} (Robson et al. 2017). However, it is not clear what processes the PMN really indexes. 
 \end{itemize}
 
 \normalsize
@@ -233,7 +233,7 @@ Why the PMN.. \pause _and why now? _
 
 ## Experimental design
 
-\pause __Three neuro-imaging experiments__ designed to introduce new contexts in which to probe the elicitation of the PMN ERP component.
+\pause Three neuro-imaging experiments designed to introduce new contexts in which to probe the elicitation of the PMN component.
 
 \pause Experiments __1__, __2__ (and __3__) were designed to simultaneously work independently while also being fully comparable.
 
@@ -244,7 +244,7 @@ Hardware:
 \small \pause
 
 \begin{itemize}[<+->]
-\item 64 active pin-type \textbf{BioSemi} electrodes
+\item 64 active pin-type \textbf{BioSemi} electrodes for the scalp
 \item 6 (EX1 to EX6) face electrodes
 \item BioSemi hardware (e.g. receiver)
 \end{itemize}
@@ -258,6 +258,7 @@ Software:
 \small \pause
 
 \begin{itemize}[<+->]
+\item Praat (w/ Vocal Toolkit)
 \item BioSemi Actiview
 \item Neurobehavioral Systems' \textbf{Presentation}
 \item MATLAB (2018b; 2019a; 2019b)
@@ -285,6 +286,8 @@ EEG pre-processing: \pause
 \begin{itemize}[<+->]
 \item Offline average reference
 \item 512 Hz sampling frequency
+\item 0.01 - 40 Hz band-pass filter
+\item 50 Hz notch filter for AC hum
 \end{itemize}
 
 ## Equipment & Processing
@@ -317,7 +320,7 @@ Data visualisation:
 
 ![](img/github.png){width="10%"}
 
-\pause Data, code and model summaries are freely available on GitHub at the repository `mcanzi/phd_codedata`
+\pause Data, code and model summaries are available on GitHub at the repository `mcanzi/phd_codedata`
 
 \pause PhD thesis has been submitted and _will be available through open access_ following thesis defense (in August) and corrections.
 
@@ -328,16 +331,26 @@ Data visualisation:
 \small
 
 \begin{itemize}[<+->]
-\item Participants were trained to learn three pairs of tri-syllabic nonce words in a computerized training phase (e.g. \emph{pitabu dipida})
+\item Participants were trained to learn three pairs of tri-syllabic nonce words, presented auditorily, in a computerized training phase (e.g. \emph{pitabu dipida})
   \begin{itemize}[<+->]
   \item \footnotesize Transitional probabilities within the two items of each nonce-word pair was 1.0 
   \end{itemize}
 \item \small Participants were tested on their knowledge of the experimental stimuli in a computerized task
-\item During EEG data collection, stimuli were played back to participants during a passive listening task, however..
+\item During EEG data collection, stimuli were played to participants during a passive listening task, however..
   \begin{itemize}[<+->]
   \item \footnotesize In 33\% of total trials (400 total trials), the first syllable of the second nonce-word of each pair would be manipulated to break expectations
   \end{itemize}
 \end{itemize}
+
+## Procedure
+
+\small
+
+\begin{center}
+
+Before training, EEG data was recorded with subjects listening passively to the presentation of matching and mismatching nonce-word pairs. This was done in order to estabilish a baseline. 
+
+\end{center}
 
 \normalsize
 
@@ -354,8 +367,11 @@ pitabu \pause \textbf{bu}pida \pause
 \end{center}
 \small
 
+## Stimuli
+
 \begin{itemize}[<+->]
 \item Stimuli were synthesized using Mac OS Text-to-Speech
+\item Stimuli concept from Astheimer and Sanders (2011), who controlled for transitional probabilities, resemblance to real words, etc.
 \item Vowel, syllable and word length were controlled (each syllable was 200 ms long)
 \item Speaker and pitch contours were the same for all stimuli.
 \end{itemize}
@@ -371,6 +387,37 @@ pitabu \pause \textbf{bu}pida \pause
 \item Normal or corrected to normal vision and hearing
 \item No reported use of psychoactive medications
 \end{itemize}
+
+## Results: __Baseline__
+
+\begin{center} 
+
+\pause
+
+No effects of interest were found \pause
+
+\end{center} \small
+
+\begin{itemize}[<+->]
+\item Few trials
+\item Low SNR
+\end{itemize}
+
+## Results
+
+\pause
+
+```{r, out.width = "80%", echo = F}
+knitr::include_graphics("img/EXP1AF.png")
+```
+
+## Results
+
+\pause
+
+```{r, out.width = "80%", echo = F}
+knitr::include_graphics("img/EXP1FC.png")
+```
 
 ## Results: __PMN__
 
@@ -393,11 +440,11 @@ knitr::include_graphics("img/pmn.png")
 We fitted a LMEM to mean amplitude measured between 280 and 320 ms PSO. \pause \texttt{Condition}, \texttt{Region} and \texttt{Hemisphere} were fitted as main effects as well as three-way interaction. \pause Varying intercepts allowed for \texttt{Subject}
 
 \begin{itemize}[<+->]
-\item No main effect of \texttt{Condition} [F(\textsubscript{1,1797}) = 0.01, \emph{p} = .89)]
-\item No interaction of \texttt{Condition} \& \texttt{Region} [F(\textsubscript{10,1797}) = 1.39, \emph{p} = .17)]
+\item No main effect of \texttt{Condition} [F(\textsubscript{1,1797}) = 0.01, p = .89)]
+\item No interaction of \texttt{Condition} \& \texttt{Region} [F(\textsubscript{10,1797}) = 1.39, p = .17)]
 \end{itemize} \normalsize
 
-## Reesults: __Other effects__
+## Results: __Other effects__
 
 \begin{itemize}[<+->]
 \item Small negative effect between 150-200 ms for mismatch condition (frontocentral\*) (\textbf{MMN?})
@@ -474,7 +521,7 @@ di \pause pi \pause da \pause
 
 ## Participants 
 
-20 Participants (F = 12) took part to the experiment. \pause
+20 participants (F = 12) took part to the experiment: \pause
 
 \begin{itemize}[<+->]
 \item 20 right-handed adults
@@ -482,7 +529,16 @@ di \pause pi \pause da \pause
 \item Age (M = 19, 18-24)
 \item Normal or corrected to normal vision and hearing
 \item No reported use of psychoactive medications
+\item 0 took part to both Exp 1 and Exp 2
 \end{itemize}
+
+## Results
+
+\pause
+
+```{r, out.width = "80%", echo = F}
+knitr::include_graphics("img/EXP2FC.png")
+```
 
 ## Results: __PMN__
 
@@ -504,12 +560,10 @@ We fitted a LMEM to mean amplitude measured between 280 and 320 ms PSO. \pause \
 \item Only significant main effect on Condition between match (M = 0.51 $\mu$V) and mismatch (M = -0.04 $\mu$V) at parieto-occipital scalp sites.
 \end{itemize} \normalsize
 
-
-
 ## Results: __Other effects__
 
 \begin{itemize}[<+->]
-\item Small negative eeffect between 75-125 ms for mismatch condition (frontal) (\textbf{N1?})
+\item Small negative effect between 75-125 ms for mismatch condition (frontal) (\textbf{N1?})
 \item Small negative effect between 150-200 ms for mismatch condition (left hemisphere) (\textbf{MMN? ELAN?})
 \item Bigger positive effect between 500-700 ms for mismatch condition (centroparietal) (\textbf{P600?})
 \end{itemize}
@@ -536,6 +590,7 @@ Contrasting findings in PMN literature cause:
 \small \begin{itemize}[<+->]
 \item Difficulty in determining whether an observed response matches the PMN (in function and topographical distribution)
 \item Easy to mistake any component in a similar range as the PMN
+\item Bulk of the (very limited) literature on the PMN attributed to one research group
 \end{itemize}
 
 ## PMN?
@@ -563,6 +618,19 @@ Earlier responses (150-200 ms) and later P600-like effects reinforce: \pause
 
 Could the PMN be a later instance of the MMN?
 
+## Future directions
+
+\pause
+
+\begin{itemize}[<+->]
+\item Explore other responses to stimulus presentation in Exp 1 and 2
+\item Determine whether they are to acoustic, phonetic, phonological features of stimuli..
+  \begin{itemize}[<+->]
+  \item \footnotesize Done in Exp 3. Data collection interrupted by COVID-19
+  \end{itemize}
+\item \small Try different paradigms that isolate phonological and lexical processing
+\end{itemize}
+
 ## Methodological limitations
 
 If we consider the non-observation of the PMN as a cause of methodological limitations: \pause
@@ -571,6 +639,16 @@ If we consider the non-observation of the PMN as a cause of methodological limit
 \item PMN most likely not reliable enough as a marker for clinical experiments
 \item Not a good candidate for experiments investigating information flow order in speech perception
 \end{itemize}
+
+## PMN: __All the right places__
+
+\pause
+
+\begin{center}
+
+Replication
+
+\end{center}
 
 ## __Thank you!__
 
