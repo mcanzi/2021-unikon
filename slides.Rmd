@@ -518,26 +518,40 @@ Contrasting findings in PMN literature cause:
 \item Easy to mistake any component in a similar range as the PMN
 \end{itemize}
 
-##
+## PMN?
 
-##
+The PMN appears to be linked to lexical processing more than to the processing of pre-lexical information (including acoustic and phonetic information). \pause
 
-##
+\begin{itemize}[<+->]
+\item This supports earlier theories of the PMN (e.g. Connolly \& Phillips 1994)
+\item Goes against later interpretations (e.g. Newman et al. 2003)
+\item How much of the PMN is in response to phonological information specifically? 
+  \begin{itemize}[<+->]
+  \item Issues with uses of PMN in clinical settings
+  \end{itemize}
+\end{itemize}
+
+## Other findings
+
+Earlier responses (150-200 ms) and later P600-like effects reinforce: \pause
+
+\begin{itemize}[<+->]
+\item Mismatch stimuli were recognised as such
+\item Early, acoustic / phonetic mismatch
+\item P600 as an index of sequence violation
+\end{itemize}
+
+Could the PMN be a later instance of the MMN?
+
+## Methodological limitations
+
+If we consider the non-observation of the PMN as a cause of methodological limitations: \pause
+
+\begin{itemize}[<+->]
+\item PMN most likely not reliable enough as a marker for clinical experiments
+\item Not a good candidate for experiments investigating information flow order in speech perception
+\end{itemize}
 
 ## __Thank you!__
 
-\small Special thanks to my supervisors __Dr Wendell Kimper__,  __Dr Patrycja Strycharczuk__ and to all the RAs: Hui Chen, Lauren Forrest, Chloe Gornall, Tristan Hill, Yuerong Shen, Ellen Symonds, Xinrong Wang, Ziyun Zhang 
-
-## References
-
-\tiny
-
-*
-
-*
-
-*
-
-\normalsize
-
-## Questions?
+\small Special thanks to my supervisors __Dr Wendell Kimper__ and  __Dr Patrycja Strycharczuk__
