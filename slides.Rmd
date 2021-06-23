@@ -484,9 +484,29 @@ di \pause pi \pause da \pause
 \item No reported use of psychoactive medications
 \end{itemize}
 
-## Results
+## Results: __PMN__
 
-## Results 
+Cubic-spline interpolation scalp maps. Mean amplitude between 280 and 320 ms post-stimulus onset.
+
+```{r, out.width = "80%", echo = F}
+knitr::include_graphics("img/pmn2.png")
+```
+
+## Results: __PMN__
+
+\pause \small
+
+We fitted a LMEM to mean amplitude measured between 280 and 320 ms PSO. \pause \texttt{Condition}, \texttt{Region} and \texttt{Hemisphere} were fitted as main effects as well as three-way interaction. \pause Varying intercepts allowed for \texttt{Subject}
+
+\begin{itemize}[<+->]
+\item No main effect of \texttt{Condition} [F(\textsubscript{1,1965.6}) = 0.0001, p = .98)]
+\item Significant interaction of \texttt{Condition} \& \texttt{Region} [F(\textsubscript{10,1948.2}) = 0.8, p = .001)]. However..
+\item Only significant main effect on Condition between match (M = 0.51 $\mu$V) and mismatch (M = -0.04 $\mu$V) at parieto-occipital scalp sites.
+\end{itemize} \normalsize
+
+
+
+## Results: __Other effects__
 
 \begin{itemize}[<+->]
 \item Small negative eeffect between 75-125 ms for mismatch condition (frontal) (\textbf{N1?})
