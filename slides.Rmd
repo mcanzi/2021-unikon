@@ -11,6 +11,7 @@ output:
     theme: "Frankfurt"
     colortheme: "dove"
     font: "serif"
+classoption: "aspectratio=169"
 ---
 
 ```{r setup, include = F}
@@ -407,7 +408,7 @@ No effects of interest were found \pause
 
 \pause
 
-```{r, out.width = "80%", echo = F}
+```{r, out.width = "60%", echo = F}
 knitr::include_graphics("img/EXP1AF.png")
 ```
 
@@ -415,7 +416,7 @@ knitr::include_graphics("img/EXP1AF.png")
 
 \pause
 
-```{r, out.width = "80%", echo = F}
+```{r, out.width = "60%", echo = F}
 knitr::include_graphics("img/EXP1FC.png")
 ```
 
@@ -429,7 +430,7 @@ Cubic-spline interpolation scalp maps. Mean amplitude betweeen 280 and 320 ms po
 \end{center} 
 \pause \normalsize
 
-```{r, out.width = "80%", echo = F}
+```{r, out.width = "60%", echo = F}
 knitr::include_graphics("img/pmn.png")
 ```
 
@@ -536,7 +537,7 @@ di \pause pi \pause da \pause
 
 \pause
 
-```{r, out.width = "80%", echo = F}
+```{r, out.width = "60%", echo = F}
 knitr::include_graphics("img/EXP2FC.png")
 ```
 
@@ -544,7 +545,7 @@ knitr::include_graphics("img/EXP2FC.png")
 
 Cubic-spline interpolation scalp maps. Mean amplitude between 280 and 320 ms post-stimulus onset.
 
-```{r, out.width = "80%", echo = F}
+```{r, out.width = "60%", echo = F}
 knitr::include_graphics("img/pmn2.png")
 ```
 
@@ -650,6 +651,18 @@ Replication
 
 \end{center}
 
-## __Thank you!__
+## Thank you!
 
-\small Special thanks to my supervisors __Dr Wendell Kimper__ and  __Dr Patrycja Strycharczuk__
+\begin{center}
+
+\small Special thanks to my supervisors \textbf{Dr Wendell Kimper} and \textbf{Dr Patrycja Strycharczuk}
+
+\end{center}
+
+```{r, echo = F, out.width = "45%"}
+knitr::include_graphics("img/konstanz.png")
+```
+
+```{r, echo = F, out.width = "20%"}
+knitr::include_graphics("img/manchester.png")
+```
