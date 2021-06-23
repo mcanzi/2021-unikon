@@ -321,9 +321,13 @@ Data visualisation:
 
 ![](img/github.png){width="10%"}
 
-\pause Data, code and model summaries are available on GitHub at the repository `mcanzi/phd_codedata`
+\small \pause Slides for this talk are available on GitHub at the following repository: `mcanzi/2021_UNIKON` \pause  
 
-\pause PhD thesis has been submitted and _will be available through open access_ following thesis defense (in August) and corrections.
+\pause Data, code and model summaries are available on GitHub at the following repository `mcanzi/phd_codedata`
+
+\pause My thesis has been submitted and will be available through open access following thesis defense (in August) and corrections.
+
+\normalsize 
 
 # Experiment 1
 
