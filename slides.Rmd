@@ -29,10 +29,22 @@ Four years ago...
 
 Can event-related potential data inform information flow order in speech perception? \pause i.e. what the extent of top-down mediation is during speech perception. 
 
-## Introductin 
+## Event-related potentials
 
-* Interactive models of speech perception (e.g. TRACE)
-* Feed-forward / modular models of speech perception (e.g. Cohort model)
+Event-related potentials (ERP) are measured brain responses that are direct result of a __sensory__, __cognitive__ or motor event (Luck 2005)
+
+\pause
+
+Event-related potential components are measured with electroencephalography (EEG) equipment.
+
+## Introduction
+
+Top-down vs bottom-up in speech perception: \pause
+
+\small \begin{itemize}[<+->]
+\item Interactive models of speech perception e.g. \textbf{TRACE} (McClelland \& Elman 1986)
+\item Feed-forward / modular models of speech perception e.g. \textbf{Cohort} (Marslen-Wilson 1984)
+\end{itemize}
 
 ## Introduction
 
@@ -78,15 +90,7 @@ Can event-related potential data inform information flow order in speech percept
 
 ## Event-related potentials
 
-Event-related potentials (__ERP__) are measured brain responses that are direct result of a __sensory__, __cognitive__ or motor event (__Luck 2005__)
-
-\pause
-
-Event-related potential components are measured with electro-encephalography (__EEG__) equipment.
-
-## Event-related potentials
-
-__ERP__ (and EEG) offer unparalleled temporal resolution, \pause opening a direct window into cognitive processes of online language processing and __speech perception__. 
+ERP (and EEG) offer unparalleled temporal resolution, \pause opening a direct window into cognitive processes of online language processing and speech perception. 
 
 \pause
 
@@ -119,6 +123,16 @@ In the auditory domain, a deviant stimulus can be identified by differences in p
 
 \normalsize
 
+## MMN
+
+However, the MMN was also found to be sensitive to phonological mapping (Pulvermuller 2001) \pause
+
+\small
+\begin{itemize}[<+->]
+\item MMN to the presentation of mismatching Finnish words
+\item No MMN in control group
+\end{itemize} \normalsize
+
 ## N400
 
 The N400 (Kutas \& Hillyard 1980) is part of the normal brain response to words and other meaningful stimuli.
@@ -140,7 +154,7 @@ However, while some studies (e.g. Connolly and Phillips 1994) have linked the PM
 
 \pause 
 
-Others (e.g. Newman & Connolly) report that the PMN is a __marker of acoustic and pre-lexical information__. 
+Others (e.g. Newman et al.) report that the PMN is a __marker of acoustic and pre-lexical information__. 
 
 ## Connolly and Phillips (1994)
 
@@ -167,11 +181,11 @@ Delete /k/ from the word "clap" \pause
 
 ## Phonological Mapping Negativity
 
-__Lewendon et. al (2020)__ suggest that the possibility exists that the PMN is an extension of either the Mismatch Negativity (__MMN__) or __N400__ components
+Lewendon et. al (2020) suggest that the possibility exists that the PMN is an extension of either the Mismatch Negativity (MMN) or N400 components
 
 ## Phonological Mapping Negativity
 
-__Lewendon et. al (2020)__ also report that the majority of the literature on the PMN is characterized by contradictory findings and methodological limitations, e.g.
+Lewendon et. al (2020) also report that the majority of the literature on the PMN is characterized by contradictory findings and methodological limitations, e.g.
 
 \small
 
@@ -210,7 +224,7 @@ Why the PMN.. \pause _and why now? _
 
 \begin{itemize}[<+->]
 \item The PMN might play an important role in future investigations of architectures of grammar (placed in between acoustic and lexical processing)
-\item Clinical studies have used the PMN as a \emph{marker of phonological processing abilities} (Robson et al. 2017). However, it is not clear what processes sexactly the PMN stands for. 
+\item Clinical studies have used the PMN as a \emph{marker of phonological processing abilities} (Robson et al. 2017). However, it is not clear what processes the PMN reallys indexes. 
 \end{itemize}
 
 \normalsize
@@ -232,7 +246,7 @@ Hardware:
 \begin{itemize}[<+->]
 \item 64 active pin-type \textbf{BioSemi} electrodes
 \item 6 (EX1 to EX6) face electrodes
-\item BiooSemi hardware (e.g. receiver)
+\item BioSemi hardware (e.g. receiver)
 \end{itemize}
 
 \normalsize
@@ -342,23 +356,23 @@ pitabu \pause \textbf{bu}pida \pause
 
 \begin{itemize}[<+->]
 \item Stimuli were synthesized using Mac OS Text-to-Speech
-\item Vowel, syllable and word length were controlled for (each syllable was 200 ms long)
+\item Vowel, syllable and word length were controlled (each syllable was 200 ms long)
 \item Speaker and pitch contours were the same for all stimuli.
 \end{itemize}
 
 ## Participants
 
-22 Participants (F = 13) took part to the experiment. 
+22 Participants (F = 13) took part to the experiment. \pause
 
 \begin{itemize}[<+->]
 \item 22 right-handed adults
 \item 22 BrE speakers
-\item Age (M = 22, 18-25)
+\item Age (M = 20, 18-25)
 \item Normal or corrected to normal vision and hearing
 \item No reported use of psychoactive medications
 \end{itemize}
 
-## Results 
+## Results: __PMN__
 
 \footnotesize 
 \begin{center}
@@ -372,16 +386,30 @@ Cubic-spline interpolation scalp maps. Mean amplitude betweeen 280 and 320 ms po
 knitr::include_graphics("img/pmn.png")
 ```
 
-## Other effects
+## Results: __PMN__
 
-* Small negative effect between 150-200 ms for mismatch condition (fronto-cenral) \pause (__MMN?__)
-* Bigger positive effect between 500-700 ms for mismatch condition (centro-parietal) \pause (__P600?__)
+\pause \small
+
+We fitted a LMEM to mean amplitude measured between 280 and 320 ms PSO. \pause \texttt{Condition}, \texttt{Region} and \texttt{Hemisphere} were fitted as main effects as well as three-way interaction. \pause Varying intercepts allowed for \texttt{Subject}
+
+\begin{itemize}[<+->]
+\item No main effect of \texttt{Condition} [F(\textsubscript{1,1797}) = 0.01, \emph{p} = .89)]
+\item No interaction of \texttt{Condition} \& \texttt{Region} [F(\textsubscript{10,1797}) = 1.39, \emph{p} = .17)]
+\end{itemize} \normalsize
+
+## Reesults: __Other effects__
+
+\begin{itemize}[<+->]
+\item Small negative effect between 150-200 ms for mismatch condition (frontocentral\*) (\textbf{MMN?})
+\item Bigger positive effect between 500-700 ms for mismatch condition (centroparietal\*) (\textbf{P600?})
+\item \tiny \* In case of a significant interaction between \texttt{Condition} and \texttt{Region}, pairwise contrasts were carried out with package \texttt{emmeans} (Lenth et al. 2018)
+\end{itemize} \normalsize
 
 ## Discussion 
 
 \begin{center}
 
-No instance of \textbf{PMN} (in any of its expected forms) was found)
+No instance of \textbf{PMN} (in any of its expected forms) was found
 
 \end{center}
 
@@ -389,12 +417,30 @@ No instance of \textbf{PMN} (in any of its expected forms) was found)
 
 Possible explanations: \pause
 
+\small
 \begin{itemize}[<+->]
 \item PMN is more "higher-level" than previously theorized
 \item Methodological limitations of Exp. 1
-\end{itemize} 
+  \begin{itemize}[<+->]
+  \item \footnotesize Passive listening
+  \item \footnotesize Possible P3a contamination?
+  \end{itemize}
+\end{itemize} \normalsize
 
 # Experiment 2
+
+## Methods
+
+\small \pause
+\begin{itemize}[<+->]
+\item Designed to be (fairly) comparable to experiment one
+  \begin{itemize}
+  \item \footnotesize Same stimuli as Exp 1
+  \item \footnotesize No lexical activation
+  \end{itemize}
+\item \small Includes active, behavioural tasks
+\item More streamlined
+\end{itemize} \normalsize
 
 ## Stimuli
 
@@ -426,13 +472,31 @@ di \pause pi \pause da \pause
 \textbf{ba}pida
 \end{center}
 
+## Participants 
+
+20 Participants (F = 12) took part to the experiment. \pause
+
+\begin{itemize}[<+->]
+\item 20 right-handed adults
+\item 20 BrE speakers
+\item Age (M = 19, 18-24)
+\item Normal or corrected to normal vision and hearing
+\item No reported use of psychoactive medications
+\end{itemize}
+
 ## Results
 
 ## Results 
 
+\begin{itemize}[<+->]
+\item Small negative eeffect between 75-125 ms for mismatch condition (frontal) (\textbf{N1?})
+\item Small negative effect between 150-200 ms for mismatch condition (left hemisphere) (\textbf{MMN? ELAN?})
+\item Bigger positive effect between 500-700 ms for mismatch condition (centroparietal) (\textbf{P600?})
+\end{itemize}
+
 ## Discussion 
 
-No instance of \textbf{PMN} (in any of its expected forms) was found)
+No instance of \textbf{PMN} (in any of its expected forms) was found
 
 ## Discussion
 
@@ -445,7 +509,14 @@ Possible explanations: \pause
 
 # General Discussion
 
-##
+## PMN?
+
+Contrasting findings in PMN literature cause: 
+
+\small \begin{itemize}[<+->]
+\item Difficulty in determining whether an observed response matches the PMN (in function and topographical distribution)
+\item Easy to mistake any component in a similar range as the PMN
+\end{itemize}
 
 ##
 
