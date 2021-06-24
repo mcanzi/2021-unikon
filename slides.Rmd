@@ -443,7 +443,7 @@ knitr::include_graphics("img/pmn.png")
 
 \pause \small
 
-We fitted a LMEM to mean amplitude measured between 280 and 320 ms PSO. \pause \texttt{Condition}, \texttt{Region} and \texttt{Hemisphere} were fitted as main effects as well as three-way interaction. \pause Varying intercepts allowed for \texttt{Subject}
+We fitted a LMEM to mean amplitude measured between 280 and 320 ms PSO. \pause Varying intercepts allowed for \texttt{Subject}
 
 \begin{itemize}[<+->]
 \item No main effect of \texttt{Condition} [F(\textsubscript{1,1797}) = 0.01, p = .89)]
@@ -558,7 +558,7 @@ knitr::include_graphics("img/pmn2.png")
 
 \pause \small
 
-We fitted a LMEM to mean amplitude measured between 280 and 320 ms PSO. \pause \texttt{Condition}, \texttt{Region} and \texttt{Hemisphere} were fitted as main effects as well as three-way interaction. \pause Varying intercepts allowed for \texttt{Subject}
+We fitted a linear mixed-effect regression model to mean amplitude measured between 280 and 320 ms PSO. \pause Varying intercepts allowed for \texttt{Subject}
 
 \begin{itemize}[<+->]
 \item No main effect of \texttt{Condition} [F(\textsubscript{1,1965.6}) = 0.0001, p = .98)]
