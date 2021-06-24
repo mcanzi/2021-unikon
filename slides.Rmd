@@ -79,7 +79,7 @@ Ganong effect (Ganong 1980)
 
 \begin{center}
 \normalsize
-Christma\textbf{/s-\textesh/} \textbf{/t-k/}capes  
+Christma\textbf{/s-\textesh/} \textbf{/t-k/}apes  
   
     
 \pause Cool, huh?
@@ -118,9 +118,9 @@ The original goal of my thesis was that to __design__ a handful of __ERP experim
 
 The mismatch negativity (MMN) is a cross-sensorial ERP component often observed in frontocentral regions of the scalp between 150 and 250 ms post stimulus onset \pause
 
-The mismatch negativity reflects the perception of a deviant stimulus in a sequence of standard stimuli (e.g. Garrido et al., 2009) \pause
+The mismatch negativity reflects the perception of a deviant stimulus in a sequence of standard stimuli \pause
 
-In the auditory domain, a deviant stimulus can be identified by differences in pitch, duration, stress and frequency range (Erlbeck et al., 2014)
+In the auditory domain, a deviant stimulus can be identified by differences in pitch, duration, stress and frequency range (Erlbeck et al. 2014)
 
 \normalsize
 
@@ -143,7 +143,10 @@ nurse \pause doctor \pause | \pause
 pizza \pause pineapple \pause  
 \end{center}
 
-* Other paradigms include cloze-probability mismatch (e.g. Connolly and Phillips 1994)
+\begin{itemize}[<+->] 
+\item Hundreds of studies 
+\item Other paradigms include cloze-probability mismatch (e.g. Connolly and Phillips 1994)
+\end{itemize}
 
 ## Phonological Mapping Negativity
 
@@ -234,7 +237,7 @@ Why the PMN.. \pause _and why now?_
 
 ## Experimental design
 
-\pause Three neuro-imaging experiments designed to introduce new contexts in which to probe the elicitation of the PMN component.
+\pause Three ERP experiments designed to investigate the elicitation of the PMN in contexts with no lexical activation.
 
 \pause Experiments __1__, __2__ (and __3__) were designed to simultaneously work independently while also being fully comparable.
 
@@ -321,7 +324,7 @@ Data visualisation:
 
 ![](img/github.png){width="10%"}
 
-\small \pause Slides for this talk are available on GitHub at the following repository: `mcanzi/2021_UNIKON` \pause  
+\small \pause Slides for this talk are available on GitHub at the following repository: `mcanzi/2021_UNIKON`  
 
 \pause Data, code and model summaries are available on GitHub at the following repository `mcanzi/phd_codedata`
 
@@ -367,7 +370,7 @@ pitabu \pause dipida \pause
 
 pitabu \pause \textbf{ba}pida \pause
 
-pitabu \pause \textbf{bu}pida \pause
+pitabu \pause \textbf{bu}pida
 
 \end{center}
 \small
@@ -566,7 +569,6 @@ We fitted a LMEM to mean amplitude measured between 280 and 320 ms PSO. \pause \
 ## Results: __Other effects__
 
 \begin{itemize}[<+->]
-\item Small negative effect between 75-125 ms for mismatch condition (frontal) (\textbf{N1?})
 \item Small negative effect between 150-200 ms for mismatch condition (left hemisphere) (\textbf{MMN? ELAN?})
 \item Bigger positive effect between 500-700 ms for mismatch condition (centroparietal) (\textbf{P600?})
 \end{itemize}
